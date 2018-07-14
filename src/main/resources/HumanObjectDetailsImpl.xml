@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+default-lazy-init="true"
+>
+     <!--<import resource="DatabaseConnectionContext.xml"/>-->
+
+    <bean id="bodyImpl" class="io.spring.learning.Classes.BodyImpl" />
+
+
+    <bean id="handImpl" class="io.spring.learning.Classes.HandImpl"/>
+
+
+    <bean id="legImpl" class="io.spring.learning.Classes.LegImp"/>
+</beans>
