@@ -10,13 +10,10 @@ import org.springframework.beans.factory.annotation.Required;
 
 public abstract class BaseHuman implements Actions {
     @Autowired
-    @Qualifier("bodyImpl")
     private Body body;
     @Autowired
-    @Qualifier("handImpl")
     private Hand hand;
     @Autowired
-    @Qualifier("legImpl")
     private Leg leg;
 
     public BaseHuman() {

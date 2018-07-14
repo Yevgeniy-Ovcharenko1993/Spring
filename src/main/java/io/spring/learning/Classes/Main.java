@@ -15,10 +15,16 @@ public class Main {
 //            human.start();
 //        }
 //         another variant
-        Human human = (Human) context.getBean("human");
+        Human human = (Human) context.getBean("human1");
 //        human.dance();
 //        human.dance();
         human.start();
+
+        Human human2 = (Human) context.getBean("human2");
+////        human.dance();
+////        human.dance();
+        human2.start();
+
 
 //        DatabaseConnection connection = (DatabaseConnection) context.getBean("dbConnection");
 //        connection.dbConnection();

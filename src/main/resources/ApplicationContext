@@ -8,16 +8,5 @@
 
 
     <context:annotation-config/>
-
-    <import resource="HumanObjectDetailsImpl.xml"/>
-
-    <bean id = "myBeanPostProcessor" class="io.spring.learning.Classes.MyBeanPostProcessor"/>
-
-    <bean id="human" class="io.spring.learning.Classes.Human" >
-        <!--<property name="body" ref="bodyImpl"/>-->
-        <!--<property name="hand" ref="handImpl"/>-->
-        <!--<property name="leg" ref="legImpl"/>-->
-    </bean>
-
-
+    <context:component-scan base-package="io.spring.learning"/>
 </beans>

@@ -5,12 +5,14 @@
 default-lazy-init="true"
 >
      <!--<import resource="DatabaseConnectionContext.xml"/>-->
-
+<!---->
     <bean id="bodyImpl" class="io.spring.learning.Classes.BodyImpl" />
-
-
+<!---->
+<!---->
     <bean id="handImpl" class="io.spring.learning.Classes.HandImpl"/>
-
-
+<!---->
+<!---->
     <bean id="legImpl" class="io.spring.learning.Classes.LegImp"/>
 </beans>
+
+        <!--THIS FILE IS NOT Being used for application - deprecated-->
